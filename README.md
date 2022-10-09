@@ -3,23 +3,26 @@
 
 A website which helps users to build their resume?cv for free within one click!
 
-![App Screenshot](https://raw.githubusercontent.com/sayande2002/FreeCV/main/images/our-logo.png)
+![Logo](https://raw.githubusercontent.com/sayande2002/FreeCV/main/images/our-logo.png)
 
-## Authors
+
+## 📌 Visit From Here :-
+[Click Here](https://freeecv.herokuapp.com/)
+## 📌 Authors
 
 - [@sayande](https://github.com/sayande2002) [Group Leader with Major Contributions] and my 3 friends who are not in github
 
 
-## Tech Stack
+## 📌 Tech Stack
 
-**Frontend:** HTML, CSS, JavaScript, Bootstrap
+**Frontend:** HTML, CSS, JavaScript, Bootstrap.
 
-**Backend:** Firebase
+**Backend:** Firebase.
 
-**Deployment:** Heroku
+**Deployment:** Heroku.
 
 
-## Features and Interfaces
+## 📌 Features and Interfaces
 
 1. Go to https://freeecv.herokuapp.com/ 
 This is our landing page
@@ -29,23 +32,12 @@ This is our landing page
 
 
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/sayande2002/FreeCV.git
-```
-
-Go to the project directory
-
-```bash
-  cd FreeCV
-```
-
-Start with any Code editors
-```bash
-  npm install
-```
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sayande.me/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayande/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sayande2002)
 
 
+## Support
+
+For support or any query, email sayandeten@gmail.com.
