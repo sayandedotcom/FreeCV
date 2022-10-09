@@ -3,7 +3,7 @@
 
 A website which helps users to build their resume?cv for free within one click!
 
-![Logo](https://raw.githubusercontent.com/sayande2002/FreeCV/main/images/our-logo.png)
+![Logo](https://user-images.githubusercontent.com/107565578/194777460-faeb943c-94de-4189-a1c7-e564233ad0dc.png)
 
 
 ## 📌 Visit From Here :-
