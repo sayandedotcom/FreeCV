@@ -7,7 +7,7 @@ A website which helps users to build their resume?cv for free within one click!
 
 
 ## 📌 Visit From Here :-
-[Click Here](https://freeecv.herokuapp.com/)
+[Click Here]https://sayande2002.github.io/FreeCV/)
 ## 📌 Authors
 
 - [@sayande](https://github.com/sayande2002) [Group Leader with Major Contributions] and my 3 friends who are not in github
@@ -26,7 +26,7 @@ A website which helps users to build their resume?cv for free within one click!
 
 This is our landing page
 
-![Screenshot 2022-10-04 171821](https://user-images.githubusercontent.com/107565578/194761133-604c15ef-ce58-421f-836e-2d547524da8c.png)
+![Screenshot 2022-10-10 014557](https://user-images.githubusercontent.com/107565578/194777690-20187036-fa93-4e8a-9a18-62ed019de10e.png)
 
 
 
