@@ -24,11 +24,9 @@ A website which helps users to build their resume?cv for free within one click!
 
 ## 📌 Features and Interfaces
 
-1. Go to https://freeecv.herokuapp.com/ 
 This is our landing page
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot]
+![Screenshot 2022-10-04 171821](https://user-images.githubusercontent.com/107565578/194761133-604c15ef-ce58-421f-836e-2d547524da8c.png)
 
 
 
