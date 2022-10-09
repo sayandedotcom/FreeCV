@@ -2,7 +2,6 @@ body,
 * {
   font-family: "Montserrat";
   text-align: center;
-  /* font-weight: 900; */
 }
 
 h1,
@@ -13,14 +12,10 @@ h5,
 h6 {
   font-family: "Montserrat-Bold";
 }
-/* 
-p {
-  color: #8f8f8f;
-} */
 
 /* Headings */
 
-.big-heading {
+.title-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
@@ -42,19 +37,9 @@ p {
 /* Sections */
 
 .colored-section {
-  /* background-color: #ff4c68; */
-  background: #8e0e00; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1f1c18,
-    #8e0e00
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #1f1c18,
-    #8e0e00
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #00c6ff;
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
   color: #fff;
 }
 
@@ -62,7 +47,7 @@ p {
   background-color: #fff;
 }
 
-/* Navigation Bar */
+/* Navigation Bar Starts */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -80,21 +65,14 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat-Bold";
   color: #fff;
   font-weight: 900;
 }
+/* Navigation Bar Ends */
 
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-
+/* Title Starts */
 #title {
-  background-color: #ff4c68;
   color: #fff;
   text-align: left;
 }
@@ -103,15 +81,20 @@ p {
   padding: 3% 7% 7%;
 }
 
+.title-button {
+  margin: 5% 3% 5% 0;
+}
+
 /* Title Image */
 
 .title-image {
-  height: 200%;
+  height: 160%;
   /* width: 60%; */
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
 }
+/* Title Ends */
 
 /* Features Starts */
 
@@ -129,12 +112,12 @@ p {
 }
 
 .icon {
-  color: #e50914;
+  color: #0072ff;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #e2363f;
+  color: #00c6ff;
 }
 .feature-text {
   color: grey;
@@ -168,7 +151,7 @@ p {
 }
 
 .team-button {
-  background-color: #e50914;
+  background-color: #0072ff;
   font-weight: 900;
   color: #fff;
 }

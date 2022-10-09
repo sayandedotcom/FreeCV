@@ -11,25 +11,15 @@ body {
   height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  /* background-color: #9633FF; */
-  background: #8e0e00; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1f1c18,
-    #8e0e00
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #1f1c18,
-    #8e0e00
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00c6ff;
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
 }
 
 .form {
   width: 400px;
   border-radius: 5px;
   background-color: white;
-  /* height:fit-content;  */
   padding: 5px 10px;
 }
 
@@ -48,8 +38,7 @@ input {
 
 #submit-btn {
   border: none;
-  /* background-color: blueviolet; */
-  background-color: #d81f26;
+  background-color: #0072ff;
   width: 100%;
   padding: 10px 8px;
   color: white;
