@@ -26,8 +26,7 @@ A website which helps users to build their resume?cv for free within one click!
 
 This is our landing page
 
-![Screenshot 2022-10-10 014557](https://user-images.githubusercontent.com/107565578/194777690-20187036-fa93-4e8a-9a18-62ed019de10e.png)
-
+![Screenshot 2022-10-10 041623](https://user-images.githubusercontent.com/107565578/194783041-dde1ca15-a9a8-4019-9be9-404fa06f1e14.png)
 
 
 ## 🔗 Links
