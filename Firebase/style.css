@@ -1,59 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #9633FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background-color: #9633FF; */
+  background: #8e0e00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .form {
-    width: 400px;
-    border-radius: 5px;
-    background-color: white;
-    /* height:fit-content;  */
-    padding: 5px 10px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: white;
+  /* height:fit-content;  */
+  padding: 5px 10px;
 }
 
 label {
-    display: block;
-    font-weight: bolder;
-    margin: 5px 0px;
+  display: block;
+  font-weight: bolder;
+  margin: 5px 0px;
 }
 
 input {
-    width: 100%;
-    padding: 8px 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  width: 100%;
+  padding: 8px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 #submit-btn {
-    border: none;
-    background-color: blueviolet;
-    width: 100%;
-    padding: 10px 8px;
-    color: white;
-    font-weight: bolder;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 9px 0px;
+  border: none;
+  /* background-color: blueviolet; */
+  background-color: #d81f26;
+  width: 100%;
+  padding: 10px 8px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 9px 0px;
 }
 
 p {
-    font-size: 12px;
-    border-radius: 10px;
-    cursor: pointer;
-    display: inline-block;
+  font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
 }
 
 a {
-    text-decoration: none;
-    font-weight: bolder;
+  text-decoration: none;
+  font-weight: bolder;
 }

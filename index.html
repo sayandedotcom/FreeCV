@@ -11,16 +11,7 @@
       rel="stylesheet"
     />
 
-    <!-- CSS Stylesheets -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- Font Awesome -->
+    <!-- Font Awesome Kit 1-->
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
@@ -35,6 +26,17 @@
       src="https://kit.fontawesome.com/b2a28f8947.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+
 
     <!-- Bootstrap Scripts -->
     <script
@@ -61,10 +63,10 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark">
           <img
-            src="./images/our-logo.png"
+            src="./images/our-logo-white.png"
             alt="Our Logo"
-            width="200"
-            height="50"
+            width="230"
+            height="70" 
           />
 
           <button
@@ -82,13 +84,13 @@
                 <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">Team</a>
+                <a class="nav-link" href="#team">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -98,31 +100,28 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h1 class="big-heading">Build a job-winning resume for free.</h1>
+            <h1 class="big-heading">Build a job-winning resume for Free</h1>
             <button
               type="button"
               class="btn btn-light btn-lg download-button"
               onclick="window.location.href='resume.html'"
             >
-              <!-- <i class="fab fa-apple"></i> -->
               Continue Free
             </button>
             <button
               type="button"
-              class="btn btn-dark btn-lg download-button"
+              class="btn btn-light btn-lg download-button"
               onclick="
               window.location.href='./Firebase/login.html'"
             >
-              <!-- <i class="fab fa-apple"></i> -->
               <i class="fa-solid fa-right-to-bracket"></i> Login
             </button>
             <button
               type="button"
-              class="btn btn-outline-light btn-lg download-button"
+              class="btn btn-light btn-lg download-button"
               onclick="
               window.location.href='./Firebase/signup.html'"
             >
-              <!-- <i class="fab fa-google-play"></i> -->
               <i class="fa-solid fa-user-plus"></i>Sign Up
             </button>
           </div>
@@ -137,26 +136,25 @@
       </div>
     </section>
 
-    <!-- Features -->
+    <!-- Features Start-->
 
     <section class="white-section" id="features">
       <div class="container-fluid">
-        <h2 class="section-heading">Why to use our website</h2>
+        <h2 class="section-heading">Why to use our website  <i class="icon fa-solid fa-question"></i></h2>
         <div class="row">
           <div class="feature-box col-lg-4">
             <i class="icon fa-solid fa-circle-check fa-4x"></i>
-            <h3 class="feature-title">Easy to use.</h3>
-            <p>
+            <h3 class="feature-title">Easy to use</h3>
+            <p class="feature-text">
               So easy to use.You will be able to customise, edit thousand time
               with just a click.
             </p>
           </div>
 
           <div class="feature-box col-lg-4">
-            <!-- <i class="icon fas fa-bullseye fa-4x"></i> -->
             <i class="icon fa-solid fa-piggy-bank fa-4x"></i>
-            <h3 class="feature-title">Free, as in free.</h3>
-            <p>
+            <h3 class="feature-title">Free, as in free</h3>
+            <p class="feature-text">
               Your resume is entirely for free and it will be free of
               watermarks. There are no premium-only options and you can download
               your resume for free, as many times as you like.
@@ -164,10 +162,9 @@
           </div>
 
           <div class="feature-box col-lg-4">
-            <!-- <i class="icon fas fa-heart fa-4x"></i> -->
             <i class="icon fa-solid fa-ruler-combined fa-4x"></i>
-            <h3 class="feature-title">Fully flexible design.</h3>
-            <p>
+            <h3 class="feature-title">Fully flexible design</h3>
+            <p class="feature-text">
               Being easy to use doesn't have to mean that you are forced into
               using a pre-made template. Make your resume stand out from the
               pack by trying different colours, fonts, headline formats and much
@@ -177,10 +174,9 @@
         </div>
         <div class="row">
           <div class="feature-box col-lg-4">
-            <!-- <i class="icon fas fa-check-circle fa-4x"></i> -->
             <i class="icon fa-solid fa-pen-clip fa-4x"></i>
-            <h3 class="feature-title">Effortless editing.</h3>
-            <p>
+            <h3 class="feature-title">Effortless Editing</h3>
+            <p class="feature-text">
               Whether you want to input skills, professional experience or
               educational history, instead of being thrown into cold water, we
               designed guided forms to help you inputting all the data
@@ -189,20 +185,18 @@
           </div>
 
           <div class="feature-box col-lg-4">
-            <!-- <i class="icon fas fa-bullseye fa-4x"></i> -->
-            <i class="icon fa-solid fa-cloud-arrow-down fa-4x"></i>
-            <h3 class="feature-title">High-quality PDF.</h3>
-            <p>
+            <i class="icon fa-sharp fa-solid fa-file-pdf fa-4x"></i>
+            <h3 class="feature-title">High-quality PDF</h3>
+            <p class="feature-text">
               A great deal of effort went into making sure that your PDF looks
               as crisp as it gets when printed or shared.
             </p>
           </div>
 
           <div class="feature-box col-lg-4">
-            <!-- <i class="icon fas fa-heart fa-4x"></i> -->
-            <i class="fa-solid fa-files"></i>
-            <h3 class="feature-title">Multiple resumes.</h3>
-            <p>
+            <i class="icon fa-regular fa-copy fa-4x"></i>
+            <h3 class="feature-title">Multiple Resumes</h3>
+            <p class="feature-text">
               Create a version of your resume in a different language or for a
               different job with just a click. A one-size-fits-all resume is a
               thing of the past.
@@ -212,9 +206,14 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Features Ends -->
+
+    <!-- Testimonials Starts-->
 
     <section class="colored-section" id="testimonials">
+      <h2 class="section-heading">
+        <i class="icon fa-solid fa-comment"></i> Testimonials
+      </h2>
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
@@ -223,21 +222,21 @@
             </h2>
             <img
               class="testimonial-image"
-              src="./images/angela.png"
+              src="./images/test1.jpg"
               alt="dog-profile"
             />
-            <em>Anjela, New York</em>
+            <em>Debjyoti, Kolkata</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="testimonial-text">
-              The Best Resume Editor I have Ever Seen in the Internet.
+              The best resume editor I have ever seen on the Internet.
             </h2>
             <img
               class="testimonial-image"
-              src="./images/lady-img.jpg"
+              src="./images/test2.jpg"
               alt="lady-profile"
             />
-            <em>Beverly, Illinois</em>
+            <em>Raj, Kolkata</em>
           </div>
         </div>
         <a
@@ -258,44 +257,34 @@
         </a>
       </div>
     </section>
+    
+    <!-- Testimonials Ends-->
 
-    <!-- Press -->
-    <!-- 
-    <section class="colored-section" id="press">
-      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img
-        class="press-logo"
-        src="images/bizinsider.png"
-        alt="biz-insider-logo"
-      />
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
-    </section> -->
 
-    <!-- Pricing -->
+    <!-- Team Starts -->
 
-    <section class="white-section" id="pricing">
-      <h2 class="section-heading">Team</h2>
-      <p>This website is created by passionate developers.</p>
+    <section class="white-section" id="team">
+      <h2 class="section-heading">
+        <i class="icon fa-solid fa-user-group"></i> Team
+      </h2>
+      <h4>This website is created by passionate developers</h4>
 
       <div class="row">
-        <div class="pricing-column col-lg-3">
+        <div class="team-column col-lg-3">
           <div class="card">
             <div class="card-header">
               <h3>Sayan De</h3>
             </div>
             <div class="card-body">
-              <!-- <h2 class="price-text">Free</h2> -->
-              <!-- <img class="" src="images/Passport.jpg" alt="resume-image" /> -->
               <img
                 alt="Card image cap"
                 class="card-img-top img-fluid"
-                src="./images/Passport.jpg"
+                src="./images/My project-removebg-preview.jpg"
               />
-              <p>Front-End Developer(Team Leader)</p>
+              <p>Full-Stack Developer(Team Leader)</p>
               <button
                 onclick="window.location.href = 'https://www.instagram.com/sayande._/';"
-                class="btn btn-lg btn-block btn-dark"
+                class="btn btn-lg btn-block team-button"
                 type="button"
               >
                 Contact
@@ -304,53 +293,49 @@
           </div>
         </div>
 
-        <div class="pricing-column col-lg-3">
+        <div class="team-column col-lg-3">
           <div class="card">
             <div class="card-header">
               <h3>Arghya Goswami</h3>
             </div>
             <div class="card-body">
-              <!-- <h2 class="price-text">$49 / mo</h2> -->
-              <!-- <img class="" src="images/Arghya.jpeg" alt="resume-image" /> -->
               <img
                 alt="Card image cap"
                 class="card-img-top img-fluid"
                 src="./images/Arghya.jpeg"
               />
               <p>Back-End Developer</p>
-              <button class="btn btn-lg btn-block btn-dark" type="button">
+              <button class="btn btn-lg btn-block team-button" type="button">
                 Contact
               </button>
             </div>
           </div>
         </div>
 
-        <div class="pricing-column col-lg-3">
+        <div class="team-column col-lg-3">
           <div class="card">
             <div class="card-header">
-              <h3>Shubhajit Chakraborty</h3>
+              <h3>S. Chakraborty</h3>
             </div>
             <div class="card-body">
-              <!-- <h2 class="price-text">$99 / mo</h2> -->
               <img
                 alt="Card image cap"
                 class="card-img-top img-fluid"
                 src="./images/Shubhajit.jpeg"
               />
               <p>UI/UX Designer</p>
-              <button class="btn btn-lg btn-block btn-dark" type="button">
+              <button class="btn btn-lg btn-block team-button" type="button">
                 Contact
               </button>
             </div>
           </div>
         </div>
-        <div class="pricing-column col-lg-3">
+        <div class="team-column col-lg-3">
           <div class="card">
             <div class="card-header">
               <h3>Aritra Saha</h3>
             </div>
             <div class="card-body">
-              <!-- <h2 class="price-text">$49 / mo</h2> -->
               <img
                 alt="Card image cap"
                 class="card-img-top img-fluid"
@@ -359,9 +344,8 @@
               <p>Front-End Developer</p>
               <button
                 onclick="window.location.href = 'https://www.instagram.com/jitu_876/';"
-                class="btn btn-lg btn-block btn-dark"
-                type="button"
-              >
+                class="btn btn-lg btn-block team-button"
+                type="button">
                 Contact
               </button>
             </div>
@@ -369,33 +353,34 @@
         </div>
       </div>
     </section>
+    
+    <!-- Team Ends -->
 
-    <!-- Call to Action -->
+    <!-- Contact Starts -->
 
-    <section class="colored-section" id="cta">
-      <div class="container-fluid">
-        <h3 class="big-heading">
-          Build your resume today with our application.
-        </h3>
-        <button class="download-button btn btn-lg btn-dark" type="button">
-          <i class="fa-brands fa-apple"></i> Download
-        </button>
-        <button class="download-button btn btn-lg brn-light" type="button">
-          <i class="fa-brands fa-google-play"></i> Download
-        </button>
-      </div>
-    </section>
+    <section  class="colored-section" id="contact">
+        <h2 class="section-heading">Contact Us</h2>
 
-    <!-- Footer -->
+        <a href="https://twitter.com/sayande2002" target="_blank"
+          ><i class="social-icon fab fa-twitter" style="font-size: 39px; color:white"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100010494277272"
+          target="_blank"
+          ><i class="social-icon fab fa-facebook-f" style="font-size: 39px; color:white"></i
+        ></a>
+        <a href="https://www.instagram.com/sayande._/" target="_blank"
+          ><i class="social-icon fab fa-instagram" style="font-size: 39px; color:white"></i
+        ></a>
 
-    <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <i class="social-icon fab fa-facebook-f"></i>
-        <i class="social-icon fab fa-twitter"></i>
-        <i class="social-icon fab fa-instagram"></i>
-        <i class="social-icon fas fa-envelope"></i>
-        <p>© Copyright 2022 Free CV</p>
-      </div>
-    </footer>
+        </a>
+        <a href="mailto:sayandeten@gmail.com"
+          ><i
+            class="social-icon fas fa-envelope"
+            style="font-size: 39px; color:white"
+          ></i>
+        </a>
+        <footer>© Copyright 2022 Free CV</footer>
+    </section><!-- Contact Ends -->
   </body>
 </html>

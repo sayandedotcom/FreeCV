@@ -1,6 +1,8 @@
-body {
+body,
+* {
   font-family: "Montserrat";
   text-align: center;
+  /* font-weight: 900; */
 }
 
 h1,
@@ -11,10 +13,10 @@ h5,
 h6 {
   font-family: "Montserrat-Bold";
 }
-
+/* 
 p {
   color: #8f8f8f;
-}
+} */
 
 /* Headings */
 
@@ -22,11 +24,13 @@ p {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: 900;
 }
 
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
+  font-weight: 900;
 }
 
 /* Containers */
@@ -38,7 +42,19 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
+  background: #8e0e00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #fff;
 }
 
@@ -65,6 +81,8 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
+  color: #fff;
+  font-weight: 900;
 }
 
 /* Buttons */
@@ -95,14 +113,15 @@ p {
   right: 30%;
 }
 
-/* Features Section */
+/* Features Starts */
 
 #features {
   position: relative;
 }
 
 .feature-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .feature-box {
@@ -110,19 +129,20 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #e50914;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #e2363f;
 }
-
-/* Testimonial Section */
-
-#testimonials {
-  background-color: #ef8172;
+.feature-text {
+  color: grey;
+  font-weight: 900;
 }
+/* Features Ends */
+
+/* Testimonial Starts */
 
 .testimonial-text {
   font-size: 3rem;
@@ -135,38 +155,33 @@ p {
   margin: 20px;
 }
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
+/* Testimonials Ends */
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
+/*  Team Starts */
 
-/* Pricing Section */
-
-#pricing {
+#team {
   padding: 100px;
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
+.team-column {
   padding: 3% 2%;
 }
 
-/* CTA Section */
+.team-button {
+  background-color: #e50914;
+  font-weight: 900;
+  color: #fff;
+}
 
-/* Footer Section */
+/* Team Ends */
+
+/* Contact Starts  */
 
 .social-icon {
-  margin: 20px 10px;
+  margin: 30px 20px;
 }
+
+/* Contact Starts  */
 
 @media (max-width: 1028px) {
   #title {
