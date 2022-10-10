@@ -1,7 +1,4 @@
-// alert("loading");
 function addNewWEField() {
-  //   console.log("Adding new field");
-
   let newNode = document.createElement("textarea");
   newNode.classList.add("form-control");
   newNode.classList.add("weField");
@@ -103,15 +100,7 @@ function generateCV() {
   reader.onloadend = function () {
     document.getElementById("imgTemplate").src = reader.result;
   };
-
-  // document.getElementById("cv-form").style.display = "none";
-  // document.getElementById("cv-template").style.display = "block";
 }
-
-//print cv
-// function printCV() {
-//   window.print();
-// }
 
 function printCV() {
   var body = document.getElementById("body").innerHTML;

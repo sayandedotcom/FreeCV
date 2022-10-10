@@ -64,8 +64,7 @@ h6 {
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Bold";
+  font-size: 1rem;
   color: #fff;
   font-weight: 900;
 }
@@ -89,7 +88,6 @@ h6 {
 
 .title-image {
   height: 160%;
-  /* width: 60%; */
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
